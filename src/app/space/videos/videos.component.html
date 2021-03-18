@@ -1,0 +1,30 @@
+<p>Hubble Videos</p>
+<tbody>
+
+  <div class="card-columns">
+    <div *ngFor="let video of this.hubbleVideosService.hubbleVideosDetailArray">
+
+      <div class="card">
+        <img class="card-img-top" [src]="video.image" alt="Card video cap">
+        <div class="card-body">
+          <h5 class="card-title">{{video.name}}</h5>
+
+          <p class="card-text" *ngIf="video.short_description != null"
+            [innerHTML]="this.truncate(video.short_description, 200, true, '…')"></p>
+
+        </div>
+        <div class="card-body">
+          <!-- <a href={{video.url}} target="_blank" class="card-link">Full Article</a> -->
+
+          <div *ngFor="let link of video.video_files">
+            <!-- <p>{{link.file_url}}</p> -->
+            <a href={{link.file_url}} target="_blank" rel="noreferrer" class="card-link">{{link.format}} Link</a><br> - size {{link.file_size}}
+            
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</tbody>
