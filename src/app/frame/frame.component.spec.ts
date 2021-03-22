@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Babylon4portComponent } from './babylon4port.component';
+import { FrameComponent } from './frame.component';
 
-describe('Babylon4portComponent', () => {
-  let component: Babylon4portComponent;
-  let fixture: ComponentFixture<Babylon4portComponent>;
+describe('FrameComponent', () => {
+  let component: FrameComponent;
+  let fixture: ComponentFixture<FrameComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Babylon4portComponent ]
+      declarations: [ FrameComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Babylon4portComponent);
+    fixture = TestBed.createComponent(FrameComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

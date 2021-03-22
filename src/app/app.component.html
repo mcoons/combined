@@ -1,10 +1,12 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-
-  <app-mainnav></app-mainnav>
+<div id="appContainer" #appContainer>
+  <div id="headerContainer" #headerContainer style="text-align:center">
+    <h1 id="titleDiv" #titleDiv>
+      Welcome to {{ title }}!
+    </h1>
+    <app-mainnav></app-mainnav>
+  </div>
+  <div id="mainContainer" #mainContainer>
+    <router-outlet></router-outlet>
+  </div>
 </div>
-
-<router-outlet></router-outlet>

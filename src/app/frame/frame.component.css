@@ -1,0 +1,14 @@
+#frameContainer {
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
