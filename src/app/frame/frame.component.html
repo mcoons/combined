@@ -1,5 +1,3 @@
-<div id="frameContainer"  #frameContainer>
-    <iframe [src]='frameURL()'>
-        <!-- <iframe height="100%" width="100%" [src]='frameURL()'> -->
-    </iframe>
+<div id="frameContainer" #frameContainer>
+    <iframe id="iframe" #frame [src]="this.urlDict[this.frameDestination] | safe: 'resourceUrl'" (load)='this.sendMessage($event)'></iframe>
 </div>

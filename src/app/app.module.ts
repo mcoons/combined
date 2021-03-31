@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientJsonpModule } from '@angular/common/http';
+// import { Ngonload } from 'ng-onload';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,9 +13,10 @@ import { ArticlesComponent } from './space/articles/articles.component';
 import { PicturesComponent } from './space/pictures/pictures.component';
 import { VideosComponent } from './space/videos/videos.component';
 import { FrameComponent } from './frame/frame.component';
+import { ApplicationPipesModule } from './ApplicationPipes/ApplicationPipes.module';
+import { AboutComponent } from './about/about.component';
+import { AlertDialogComponent } from './alert-dialog/alert-dialog.component';
 
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -25,16 +27,18 @@ import { MatExpansionModule } from '@angular/material/expansion';
     PicturesComponent,
     VideosComponent,
     FrameComponent,
+    AboutComponent,
+    AlertDialogComponent,
   ],
   imports: [
     HttpClientModule,
     HttpClientJsonpModule,
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    MatExpansionModule,
+    ApplicationPipesModule
   ],
   providers: [
+    ApplicationPipesModule
   ],
   bootstrap: [AppComponent]
 })
