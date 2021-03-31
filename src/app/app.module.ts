@@ -15,7 +15,6 @@ import { VideosComponent } from './space/videos/videos.component';
 import { FrameComponent } from './frame/frame.component';
 import { ApplicationPipesModule } from './ApplicationPipes/ApplicationPipes.module';
 import { AboutComponent } from './about/about.component';
-import { AlertDialogComponent } from './alert-dialog/alert-dialog.component';
 
 
 @NgModule({
@@ -28,7 +27,6 @@ import { AlertDialogComponent } from './alert-dialog/alert-dialog.component';
     VideosComponent,
     FrameComponent,
     AboutComponent,
-    AlertDialogComponent,
   ],
   imports: [
     HttpClientModule,
