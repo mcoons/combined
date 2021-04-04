@@ -32,8 +32,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
   frameContainer: ElementRef;
 
   public urlDict = {
-    // 'mp3player'    : 'https://soundanalyzerng.herokuapp.com?fromIframe=true',
-    'mp3player': '//localhost:4300?fromIframe=true',
+    'mp3player'    : 'https://soundanalyzerng.herokuapp.com?fromIframe=true',
+    // 'mp3player': '//localhost:4300?fromIframe=true',
     'polareqs': 'https://polareqs.michaelcoons.tech?fromIframe=true',
     'noise': 'https://noise.michaelcoons.tech?fromIframe=true',
     'pomodoroclock': 'https://pomodoro.michaelcoons.tech?fromIframe=true',

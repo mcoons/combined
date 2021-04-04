@@ -31,4 +31,9 @@ export class MainnavComponent implements OnInit, AfterViewInit {
     this.navbarOpen = !this.navbarOpen;
   }
 
+//   $('.navbar-collapse a').click(function(){
+//     $(".navbar-collapse").collapse('hide');
+// });
+
+
 }

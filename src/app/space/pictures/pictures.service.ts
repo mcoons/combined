@@ -63,7 +63,7 @@ export class PicturesService {
 
           (response: Picturesdetails) => {
             this.hubbleImagesDetailArray.push(response);
-            console.log(response);
+            // console.log(response);
           }
         );
        }

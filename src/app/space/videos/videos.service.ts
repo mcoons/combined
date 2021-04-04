@@ -34,7 +34,7 @@ export class VideosService {
 
   getAllVideos(page: 1): Observable<Videos[]> {
     const response = this.httpClient.jsonp<Videos[]>(this.apiRoot + 'videos?page=' + page, 'callback');
-    console.log(response);
+    // console.log(response);
     return response;
   }
 
@@ -76,7 +76,7 @@ export class VideosService {
 
           (response: Videosdetails) => {
             this.hubbleVideosDetailArray.push(response);
-            console.log(response);
+            // console.log(response);
 
           }
         );
