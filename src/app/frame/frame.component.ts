@@ -41,6 +41,9 @@ export class FrameComponent implements OnInit, AfterViewInit {
     'mengerplanes': 'https://mcoons.github.io/mengerplanes?fromIframe=true',
     'babylon4port': 'https://mcoons.github.io/babylon-template?fromIframe=true',
     'rgbcube': 'https://mcoons.github.io/color?fromIframe=true',
+    'towerpoc': 'https://mcoons.github.io/tower-of-horror?fromIframe=true',
+    'pixelpaint':'https://pixelpaint-81fce.firebaseapp.com',
+    'tower':'https://mcoons.github.io/UnityTowerDist?fromIframe=true'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {
