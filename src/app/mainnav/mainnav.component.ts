@@ -1,5 +1,7 @@
 // import { Component, OnInit } from '@angular/core';
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { appData2D } from '../appData';
+import { appData3D } from '../appData';
 
 @Component({
   selector: 'app-mainnav',
@@ -8,11 +10,16 @@ import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angula
 })
 export class MainnavComponent implements OnInit, AfterViewInit {
   navbarOpen = false;
+  appData2D;
+  appData3D;
 
   @ViewChild('mainNav')
   mainNav: ElementRef;
 
-  constructor() { }
+  constructor() { 
+    this.appData2D = appData2D;
+    this.appData3D = appData3D;
+  }
 
   ngOnInit(): void {
   }

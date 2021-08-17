@@ -6,7 +6,7 @@ import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
-  title = 'Combined';
+  title:string = 'Combined';
 
   @ViewChild('headerContainer') headerContainer: ElementRef;
   @ViewChild('mainContainer') mainContainer: ElementRef;
