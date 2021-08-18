@@ -1,3 +1,17 @@
-#homeContainer {
-    margin: 5px;
+ #homeContainer {
+    margin-left: 16px;
 }
+/*
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+  }
+
+
+li,ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    height:100%;
+  } */

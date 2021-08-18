@@ -4,31 +4,22 @@
     <p>Projects can be accessed through the menu system or through the summaries below.</p>
 
     <h2>2D Stuff</h2>
-    <ul>
-        <li *ngFor="let item of appData2D; let i = index">
-            <h4><a routerLink={{item.link}} [queryParams]="{frame: true}">
-                {{item.name}}
-            </a></h4>
-            <h5>Description</h5>
-            <p>{{item.desc}}</p>
-            <h5>Tech</h5>
-            <p>{{item.tech}}</p>
-        </li>
-    </ul>
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
+            *ngFor="let item of appData2D; let i = index">
+            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
+        </div>
+    </div>
 
-
+    <br>
     <h2>3D Stuff</h2>
-    <ul>
-        <li *ngFor="let item of appData3D; let i = index">
-            <h4><a routerLink={{item.link}} [queryParams]="{frame: true}">
-                {{item.name}}
-            </a></h4>
-            <h5>Description</h5>
-            <p>{{item.desc}}</p>
-            <h5>Tech</h5>
-            <p>{{item.tech}}</p>
-        </li>
-    </ul>
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
+            *ngFor="let item of appData3D; let i = index">
+            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
+        </div>
+    </div>
+
 
 
 </div>

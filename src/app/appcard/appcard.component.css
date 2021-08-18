@@ -1,0 +1,26 @@
+ mat-card-header {
+    /* margin :0;
+    padding: 0; */
+    min-height: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+:host /deep/ .mat-card-header-text {
+    margin: 0;
+}
+/*
+mat-card-title {
+    margin :0;
+    padding: 0;
+}
+
+ .content {
+    height: 100%;
+} */
+
+
+.content > mat-card {
+    /* margin-top: 10px; */
+    padding-top: 5px;
+}

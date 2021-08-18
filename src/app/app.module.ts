@@ -7,6 +7,9 @@ import { HttpClientJsonpModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import {MatCardModule} from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { HomeComponent } from './home/home.component';
 import { ArticlesComponent } from './space/articles/articles.component';
@@ -15,6 +18,8 @@ import { VideosComponent } from './space/videos/videos.component';
 import { FrameComponent } from './frame/frame.component';
 import { ApplicationPipesModule } from './ApplicationPipes/ApplicationPipes.module';
 import { AboutComponent } from './about/about.component';
+import { AppcardComponent } from './appcard/appcard.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -27,13 +32,17 @@ import { AboutComponent } from './about/about.component';
     VideosComponent,
     FrameComponent,
     AboutComponent,
+    AppcardComponent,
   ],
   imports: [
     HttpClientModule,
     HttpClientJsonpModule,
     BrowserModule,
     AppRoutingModule,
-    ApplicationPipesModule
+    ApplicationPipesModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    FlexLayoutModule
   ],
   providers: [
     ApplicationPipesModule

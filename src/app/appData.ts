@@ -9,7 +9,7 @@ export const appData2D = [
     {
       "name": "Snowflake Overlay",
       "img": "",
-      "desc": "This is an overlay that simulates snowflakes falling. It uses a canvas element for the overlay. There are random wind and intensity changes along with random snowflake properties.  Multiple canvas elements are used for preloading and fading between images.",
+      "desc": "This is a canvas overlay that simulates snowflakes falling. There are random wind and intensity changes along with random snowflake properties.  Multiple canvas elements are used for preloading and fading between images.",
       "tech": "HTML, CSS, JavaScript",
       "link": "/frame/snow"
     },
