@@ -44,7 +44,7 @@ export class FrameComponent implements OnInit, AfterViewInit {
     'towerpoc': 'https://mcoons.github.io/tower-of-horror?fromIframe=true',
     'pixelpaint':'https://pixelpaint-81fce.firebaseapp.com',
     'tower':'https://mcoons.github.io/UnityTowerDist?fromIframe=true',
-    'snow':'http://snowflakes.michaelcoons.tech/?fromIframe=true'
+    'snow':'https://snowflakes.michaelcoons.tech/?fromIframe=true'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {
