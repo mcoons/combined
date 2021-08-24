@@ -20,6 +20,7 @@ import { ApplicationPipesModule } from './ApplicationPipes/ApplicationPipes.modu
 import { AboutComponent } from './about/about.component';
 import { AppcardComponent } from './appcard/appcard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 
 @NgModule({
@@ -47,6 +48,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   providers: [
     ApplicationPipesModule
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+
 })
 export class AppModule { }
