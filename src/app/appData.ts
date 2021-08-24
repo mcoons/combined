@@ -1,11 +1,17 @@
 export const appData2D = [
-    {
-      "name": "Pomodoro Clock",
-      "img": "/assets/images/pomodoro.png",
-      "desc": "This is my take on a Pomodoro app to help with Time Management. This utilizes the Howler.js library for sound and local storage to cache settings.",
-      "tech": "HTML, CSS, JavaScript, Howler.js and multiple Canvas element overlays.",
-      "link": ['/frame/pomodoroclock']
-    },
+  {
+    "name": "New York Times News",
+    "img": "/assets/images/reactnews.png",
+    "desc": "React News.",
+    "tech": "React",
+    "link": ['/frame/reactnews']
+  },    {
+    "name": "Pomodoro Clock",
+    "img": "/assets/images/pomodoro.png",
+    "desc": "This is my take on a Pomodoro app to help with Time Management. This utilizes the Howler.js library for sound and local storage to cache settings.",
+    "tech": "HTML, CSS, JavaScript, Howler.js and multiple Canvas element overlays.",
+    "link": ['/frame/pomodoroclock']
+  },
     {
       "name": "Snowflake Overlay",
       "img": "/assets/images/snowflakes.png",

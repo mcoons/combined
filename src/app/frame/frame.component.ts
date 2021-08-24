@@ -33,7 +33,6 @@ export class FrameComponent implements OnInit, AfterViewInit {
 
   public urlDict = {
     'mp3player'    : 'https://soundanalyzerng.herokuapp.com?fromIframe=true',
-    // 'mp3player': '//localhost:4300?fromIframe=true',
     'polareqs': 'https://polareqs.michaelcoons.tech?fromIframe=true',
     'noise': 'https://noise.michaelcoons.tech?fromIframe=true',
     'pomodoroclock': 'https://pomodoro.michaelcoons.tech?fromIframe=true',
@@ -44,7 +43,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
     'towerpoc': 'https://mcoons.github.io/tower-of-horror?fromIframe=true',
     'pixelpaint':'https://pixelpaint-81fce.firebaseapp.com',
     'tower':'https://mcoons.github.io/UnityTowerDist?fromIframe=true',
-    'snow':'https://snowflakes.michaelcoons.tech/?fromIframe=true'
+    'snow':'https://snowflakes.michaelcoons.tech/?fromIframe=true',
+    'reactnews':'https://mcoons.github.io/react-news/?fromIframe=true'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {
