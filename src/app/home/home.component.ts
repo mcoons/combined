@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
 
   appData2D;
   appData3D;
+  
   // dialog;
   // appData2D = [
   //   {
