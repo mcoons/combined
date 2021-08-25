@@ -1,17 +1,18 @@
 export const appData2D = [
-  {
-    "name": "New York Times News",
-    "img": "/assets/images/reactnews.png",
-    "desc": "This React news app pulls from a New York Times API to display the most popular news.",
-    "tech": "HTML, CSS, Javascript, React",
-    "link": ['/frame/reactnews']
-  }, 
+   
   {
     "name": "Pomodoro Clock",
     "img": "/assets/images/pomodoro.png",
     "desc": "This is my take on a Pomodoro app to help with Time Management. This utilizes the Howler.js library for sound and local storage to cache settings.",
     "tech": "HTML, CSS, JavaScript, Howler.js and multiple Canvas element overlays.",
     "link": ['/frame/pomodoroclock']
+  },
+  {
+    "name": "New York Times News",
+    "img": "/assets/images/reactnews.png",
+    "desc": "This React news app pulls from a New York Times API to display the most popular news.",
+    "tech": "HTML, CSS, Javascript, React",
+    "link": ['/frame/reactnews']
   },
   {
     "name": "g90 Cohort Directory",
@@ -52,6 +53,13 @@ export const appData2D = [
 
 export const appData3D = [
   {
+    "name": "3D Music Visualizer",
+    "img": "/assets/images/visualizer.png",
+    "desc": "An MP3 player with multiple interactive 3D visuals.  Play local MP3s.  Microphone support to watch youself sing.  Frequency analysis and graphing.  Customize visuals and save them to your favorites.",
+    "tech": "Angular, Typescript and Babylon.JS",
+    "link": "/frame/mp3player"
+  },
+  {
     "name": "Tower Game POC",
     "img": "/assets/images/TowerOfThree.png",
     "desc": "Galvanize Capstone Project  Given 10 days to come up with a project idea using an unfamiliar technology and build it.  It's a proof of concept for a 3D logic tower game.  It uses an event bus architecture for component communication.",
@@ -64,13 +72,6 @@ export const appData3D = [
     "desc": "Expanding on the Tower POC, I'm using Unity 3D to build the game for eventual publishing and distribution on multiple platforms.",
     "tech": "Unity 3D, C#",
     "link": "/frame/tower"
-  },
-  {
-    "name": "3D Music Visualizer",
-    "img": "/assets/images/visualizer.png",
-    "desc": "An MP3 player with multiple interactive 3D visuals.  Play local MP3s.  Microphone support to watch youself sing.  Frequency analysis and graphing.  Customize visuals and save them to your favorites.",
-    "tech": "Angular, Typescript and Babylon.JS",
-    "link": "/frame/mp3player"
   },
   {
     "name": "3D Noise",
