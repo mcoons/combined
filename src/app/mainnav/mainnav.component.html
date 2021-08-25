@@ -1,7 +1,7 @@
 <nav id="mainNav" #mainNav class="navbar navbar-expand-sm navbar-dark bg-primary bg-gradient
 ">
   <a class="navbar-brand" routerLink="home">
-    <img width="30"  height="30" alt="Angular Logo"
+    <img width="30" height="30" alt="Angular Logo"
       src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
     michaelcoons.tech
   </a>
@@ -13,9 +13,9 @@
   <div class="collapse navbar-collapse white" [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link white" routerLink="home" (click)="toggleNavbar()" >Home</a>
+        <a class="nav-link white" routerLink="home" (click)="toggleNavbar()">Home</a>
       </li>
-    
+
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle white" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
@@ -28,7 +28,7 @@
         </div>
       </li> -->
 
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle white" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           2D Stuff
@@ -39,7 +39,42 @@
           <a class="dropdown-item" [routerLink]="['frame','polareqs']" (click)="toggleNavbar()" >Polar Equations</a>
           <a class="dropdown-item" [routerLink]="['frame','pixelpaint']" (click)="toggleNavbar()" >Simple Sprite Creator</a>
         </div>
+      </li> -->
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle white" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          2D Stuff
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+          <a *ngFor="let item of appData2D; let i = index" class="dropdown-item" routerLink={{item.link}}
+            [queryParams]="{frame: true}" (click)="toggleNavbar()">{{item.name}}</a>
+        </div>
       </li>
+
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle white" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          3D Stuff
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+          <a class="dropdown-item" [routerLink]="['frame','towerpoc']" (click)="toggleNavbar()">Tower Game POC
+            (Three.js)</a>
+          <a class="dropdown-item" [routerLink]="['frame','tower']" (click)="toggleNavbar()">Tower Game Prototype (Unity
+            3D)</a>
+          <a class="dropdown-item" [routerLink]="['frame','mp3player']" (click)="toggleNavbar()">3D Music Visualizer
+            (Babylon.js)</a>
+          <a class="dropdown-item" [routerLink]="['frame','noise']" (click)="toggleNavbar()">3D Noise (Babylon.js)</a>
+          <a class="dropdown-item" [routerLink]="['frame','rgbcube']" (click)="toggleNavbar()">RGB Cube (Babylon.js)</a>
+          <a class="dropdown-item" [routerLink]="['frame','mengerclones']" (click)="toggleNavbar()">Menger Sponge w/
+            Clones (Babylon.js)</a>
+          <a class="dropdown-item" [routerLink]="['frame','mengerplanes']" (click)="toggleNavbar()">Menger Sponge w/
+            Planes (Babylon.js)</a>
+          <a class="dropdown-item" [routerLink]="['frame','babylon4port']" (click)="toggleNavbar()">4 Camera Template
+            (Babylon.js)</a>
+        </div>
+      </li> -->
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle white" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown"
@@ -47,18 +82,14 @@
           3D Stuff
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-          <a class="dropdown-item" [routerLink]="['frame','towerpoc']" (click)="toggleNavbar()" >Tower Game POC (Three.js)</a>
-          <a class="dropdown-item" [routerLink]="['frame','tower']" (click)="toggleNavbar()" >Tower Game Prototype (Unity 3D)</a>
-          <a class="dropdown-item" [routerLink]="['frame','mp3player']" (click)="toggleNavbar()" >3D Music Visualizer (Babylon.js)</a>
-          <a class="dropdown-item" [routerLink]="['frame','noise']" (click)="toggleNavbar()" >3D Noise (Babylon.js)</a>
-          <a class="dropdown-item" [routerLink]="['frame','rgbcube']" (click)="toggleNavbar()" >RGB Cube (Babylon.js)</a>
-          <a class="dropdown-item" [routerLink]="['frame','mengerclones']" (click)="toggleNavbar()" >Menger Sponge w/ Clones (Babylon.js)</a>
-          <a class="dropdown-item" [routerLink]="['frame','mengerplanes']" (click)="toggleNavbar()" >Menger Sponge w/ Planes (Babylon.js)</a>
-          <a class="dropdown-item" [routerLink]="['frame','babylon4port']" (click)="toggleNavbar()" >4 Camera Template (Babylon.js)</a>
+          <a *ngFor="let item of appData3D; let i = index" class="dropdown-item" routerLink={{item.link}}
+            [queryParams]="{frame: true}" (click)="toggleNavbar()">{{item.name}}</a>
         </div>
       </li>
+
+
       <li class="nav-item">
-        <a class="nav-link white" routerLink="about" (click)="toggleNavbar()" >About</a>
+        <a class="nav-link white" routerLink="about" (click)="toggleNavbar()">About</a>
       </li>
     </ul>
   </div>

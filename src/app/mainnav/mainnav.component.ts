@@ -22,6 +22,9 @@ export class MainnavComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
+    console.log("appData2D");
+    console.log(appData2D);
+    
   }
 
   ngAfterViewInit(): void {

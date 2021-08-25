@@ -2,15 +2,30 @@ export const appData2D = [
   {
     "name": "New York Times News",
     "img": "/assets/images/reactnews.png",
-    "desc": "React News.",
-    "tech": "React",
+    "desc": "This React news app pulls from a New York Times API to display the most popular news.",
+    "tech": "HTML, CSS, Javascript, React",
     "link": ['/frame/reactnews']
-  }, {
+  }, 
+  {
     "name": "Pomodoro Clock",
     "img": "/assets/images/pomodoro.png",
     "desc": "This is my take on a Pomodoro app to help with Time Management. This utilizes the Howler.js library for sound and local storage to cache settings.",
     "tech": "HTML, CSS, JavaScript, Howler.js and multiple Canvas element overlays.",
     "link": ['/frame/pomodoroclock']
+  },
+  {
+    "name": "g90 Cohort Directory",
+    "img": "/assets/images/g90.png",
+    "desc": "This is a directory of our Galvanize cohort so we can keep in touch. It is a full stack server side CRUD app written using Node, Express and EJS. It uses Knex with a PostgreSQL database.",
+    "tech": "Node, JavaScript, Express, EJS, Knex and PostgreSQL",
+    "link": "/frame/g90"
+  },
+  {
+    "name": "Spartans Fan Page",
+    "img": "/assets/images/spartans.png",
+    "desc": "This is a server side rendered app written for the Spartan parents so they can download pictures that I take of the players. It has very low maintenance. I just add a new image directory and it dynamically updates the menu and pages by reading the file system.",
+    "tech": "Node, Express, JavaScript and EJS",
+    "link": "/frame/spartans"
   },
   {
     "name": "Snowflake Overlay",
@@ -67,14 +82,21 @@ export const appData3D = [
   {
     "name": "RGB Cube",
     "img": "/assets/images/rgbcube.png",
-    "desc": "A simple RGB cube",
+    "desc": "A simple interactive RGB cube",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/rgbcube"
   },
   {
+    "name": "Menger Sponge Take 1",
+    "img": "/assets/images/menger.png",
+    "desc": "This was my first attempt at a Menger Sponge but unfortunately it took over 3.8 million vertices to render.",
+    "tech": "HTML, CSS, JavaScript and Babylon.JS",
+    "link": "/frame/menger"
+  }, 
+  {
     "name": "Menger Sponge w/ Clones",
     "img": "/assets/images/mengerclones.png",
-    "desc": "By utilizing CSG I was able to reduce the vertices down to 1,492,120 from 3,840,000. Clones were also used to help with optimization.",
+    "desc": "By utilizing CSG (Constructive Solid Geometry) I was able to reduce the vertices down to 1,492,120 from 3,840,000. Clones were also used to help with optimization.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/mengerclones"
   },

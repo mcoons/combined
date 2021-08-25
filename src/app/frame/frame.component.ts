@@ -32,6 +32,7 @@ export class FrameComponent implements OnInit, AfterViewInit {
   frameContainer: ElementRef;
 
   public urlDict = {
+    'menger':'https://mcoons.github.io/menger/',
     'mp3player'    : 'https://soundanalyzerng.herokuapp.com?fromIframe=true',
     'polareqs': 'https://polareqs.michaelcoons.tech?fromIframe=true',
     'noise': 'https://noise.michaelcoons.tech?fromIframe=true',
@@ -44,7 +45,9 @@ export class FrameComponent implements OnInit, AfterViewInit {
     'pixelpaint':'https://pixelpaint-81fce.firebaseapp.com',
     'tower':'https://mcoons.github.io/UnityTowerDist?fromIframe=true',
     'snow':'https://snowflakes.michaelcoons.tech/?fromIframe=true',
-    'reactnews':'https://mcoons.github.io/react-news/?fromIframe=true'
+    'reactnews':'https://mcoons.github.io/react-news/?fromIframe=true',
+    'g90':'https://g90.herokuapp.com/students',
+    'spartans':'https://spartanfb.herokuapp.com/'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {

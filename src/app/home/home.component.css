@@ -1,6 +1,28 @@
  #homeContainer {
     margin-left: 16px;
 }
+
+#me {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 75px;
+  margin-top: 5px;
+  margin-right: 10px;
+  float: left;
+}
+
+
+@media only screen and (min-width: 400px) {
+  #me {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: left;  }
+}
 /*
 ul {
     list-style-type: none;
