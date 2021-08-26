@@ -74,18 +74,18 @@ export const appData3D = [
     "link": "/frame/tower"
   },
   {
+    "name": "3D Charting Library POC",
+    "img": "/assets/images/3dchartlibrarypoc.png",
+    "desc": "Proof of concept for a 3D charting library.  Includes Bar, Stacked Bar, 3D Bar, Pie, Line and two Guage charts.  Multiple interactive 3D scenes.",
+    "tech": "HTML, CSS, JavaScript and Babylon.JS",
+    "link": "/frame/3dchart"
+  },
+  {
     "name": "3D Noise",
     "img": "/assets/images/noise.png",
     "desc": "This is an exploration of perlin and simplex noise. I use the noise to produce multiple 2D and 3D textures.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/noise"
-  },
-  {
-    "name": "RGB Cube",
-    "img": "/assets/images/rgbcube.png",
-    "desc": "A simple interactive RGB cube",
-    "tech": "HTML, CSS, JavaScript and Babylon.JS",
-    "link": "/frame/rgbcube"
   },
   {
     "name": "Menger Sponge Take 1",
@@ -107,6 +107,13 @@ export const appData3D = [
     "desc": "This third implementation quickly generates an L4 Menger sponge using only 984 vertices instead of 3,840,000!! It uses planes and textures for the different layers of the sponge.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/mengerplanes"
+  },
+  {
+    "name": "RGB Cube",
+    "img": "/assets/images/rgbcube.png",
+    "desc": "A simple interactive RGB cube",
+    "tech": "HTML, CSS, JavaScript and Babylon.JS",
+    "link": "/frame/rgbcube"
   },
   {
     "name": "Four Camera Template for BabylonJS",

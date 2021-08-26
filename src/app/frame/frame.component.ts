@@ -47,7 +47,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
     'snow':'https://snowflakes.michaelcoons.tech/?fromIframe=true',
     'reactnews':'https://mcoons.github.io/react-news/?fromIframe=true',
     'g90':'https://g90.herokuapp.com/students',
-    'spartans':'https://spartanfb.herokuapp.com/'
+    'spartans':'https://spartanfb.herokuapp.com/',
+    'chart3d':'https://https://charts-3d-api-poc.herokuapp.com//'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {
