@@ -65,8 +65,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
     var frameWidth = this.frameContainer.nativeElement.offsetWidth;
     var frameHeight = this.frameContainer.nativeElement.offsetHeight;
 
-    console.log('Frame Width:' + frameWidth);
-    console.log('Frame Height: ' + frameHeight);
+    // console.log('Frame Width:' + frameWidth);
+    // console.log('Frame Height: ' + frameHeight);
   }
 
   ngOnDestroy() {
@@ -78,7 +78,7 @@ export class FrameComponent implements OnInit, AfterViewInit {
     if (!this.isFrameLoaded) {
 
       this.isFrameLoaded = true;
-      console.log('Frame Loaded');
+      // console.log('Frame Loaded');
 
       setTimeout(() => {
 

@@ -22,8 +22,8 @@ export class MainnavComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
-    console.log("appData2D");
-    console.log(appData2D);
+    // console.log("appData2D");
+    // console.log(appData2D);
     
   }
 
@@ -32,8 +32,8 @@ export class MainnavComponent implements OnInit, AfterViewInit {
     var navHeight = this.mainNav.nativeElement.offsetHeight;
 
 
-    console.log('Nav Width:' + navWidth);
-    console.log('Nav Height: ' + navHeight);
+    // console.log('Nav Width:' + navWidth);
+    // console.log('Nav Height: ' + navHeight);
 
   }
 

@@ -15,30 +15,30 @@ export class AppComponent implements AfterViewInit {
     var headerWidth = this.headerContainer.nativeElement.offsetWidth;
     var headerHeight = this.headerContainer.nativeElement.offsetHeight;
 
-    console.log('Header Width:' + headerWidth);
-    console.log('Header Height: ' + headerHeight);
+    // console.log('Header Width:' + headerWidth);
+    // console.log('Header Height: ' + headerHeight);
       
     var mainWidth = this.mainContainer.nativeElement.offsetWidth;
     var mainHeight = this.mainContainer.nativeElement.offsetHeight;
 
-    console.log('Main Width:' + mainWidth);
-    console.log('Main Height: ' + mainHeight);
+    // console.log('Main Width:' + mainWidth);
+    // console.log('Main Height: ' + mainHeight);
   }
 
   onWindowResize() {
-    console.log('Resizing');
+    // console.log('Resizing');
 
     var headerWidth = this.headerContainer.nativeElement.offsetWidth;
     var headerHeight = this.headerContainer.nativeElement.offsetHeight;
 
-    console.log('Header Width:' + headerWidth);
-    console.log('Header Height: ' + headerHeight);
+    // console.log('Header Width:' + headerWidth);
+    // console.log('Header Height: ' + headerHeight);
   
     var mainWidth = this.mainContainer.nativeElement.offsetWidth;
     var mainHeight = this.mainContainer.nativeElement.offsetHeight;
 
-    console.log('Main Width:' + mainWidth);
-    console.log('Main Height: ' + mainHeight);
+    // console.log('Main Width:' + mainWidth);
+    // console.log('Main Height: ' + mainHeight);
   }
 
 }
