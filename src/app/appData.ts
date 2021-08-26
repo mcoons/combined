@@ -78,7 +78,7 @@ export const appData3D = [
     "img": "/assets/images/3dchartlibrarypoc.png",
     "desc": "Proof of concept for a 3D charting library.  Includes Bar, Stacked Bar, 3D Bar, Pie, Line and two Guage charts.  Multiple interactive 3D scenes.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
-    "link": "/frame/3dchart"
+    "link": "/frame/3dcharts"
   },
   {
     "name": "3D Noise",
@@ -90,21 +90,21 @@ export const appData3D = [
   {
     "name": "Menger Sponge Take 1",
     "img": "/assets/images/menger.png",
-    "desc": "This was my first attempt at a Menger Sponge but unfortunately it took over 3.8 million vertices to render.",
+    "desc": "This was my first attempt at a Menger Sponge but unfortunately it <b>took over 3.8 million vertices</b> to render.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/menger"
   }, 
   {
     "name": "Menger Sponge w/ Clones",
     "img": "/assets/images/mengerclones.png",
-    "desc": "By utilizing CSG (Constructive Solid Geometry) I was able to reduce the vertices down to 1,492,120 from 3,840,000. Clones were also used to help with optimization.",
+    "desc": "By utilizing CSG (Constructive Solid Geometry) I was able to reduce the vertices <b>down to 1,492,120 from 3,840,000</b>. Clones were also used to help with optimization.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/mengerclones"
   },
   {
     "name": "Menger Sponge w/ Planes",
     "img": "/assets/images/mengerplanes.png",
-    "desc": "This third implementation quickly generates an L4 Menger sponge using only 984 vertices instead of 3,840,000!! It uses planes and textures for the different layers of the sponge.",
+    "desc": "This third implementation quickly generates an L4 Menger sponge <b>using only 984 vertices instead of 3,840,000!!</b> It uses planes and textures for the different layers of the sponge.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/mengerplanes"
   },
