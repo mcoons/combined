@@ -25,9 +25,10 @@
 }
 
 hr.solid {
-  border-top: 3px solid #0D47A0;
+  border-top: 3px solid #226FCE;
   margin-top: 3px;
   margin-bottom: 3px;
+  background-image: linear-gradient(to right, #0D47A0  , #3999FE);
 
 }
 
@@ -35,9 +36,11 @@ hr.solid {
 #stuff2d, #stuff3d {
   justify-content: center;
   text-align: center;
-  background-color: #0D47A0;
+  background-color: #226FCE;
   color: white;
   margin: 0;
+  background-image: linear-gradient(to right, #0D47A0  , #3999FE);
+
 }
 
 

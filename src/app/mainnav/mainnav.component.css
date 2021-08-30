@@ -3,7 +3,8 @@
 }
 
 #mainNav {
-    background-color: #0D47A0 !important;
+    /* background-color: #0D47A0 !important; */
+    background-image: linear-gradient(to right, #0D47A0  , #3999FE);
     padding:0;
 }
 
