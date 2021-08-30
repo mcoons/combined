@@ -25,7 +25,7 @@
 }
 
 hr.solid {
-  border-top: 3px solid #047BFE;
+  border-top: 3px solid #0D47A0;
   margin-top: 3px;
   margin-bottom: 3px;
 
@@ -35,7 +35,7 @@ hr.solid {
 #stuff2d, #stuff3d {
   justify-content: center;
   text-align: center;
-  background-color: #047BFE;
+  background-color: #0D47A0;
   color: white;
   margin: 0;
 }

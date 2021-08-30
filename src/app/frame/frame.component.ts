@@ -52,12 +52,16 @@ export class FrameComponent implements OnInit, AfterViewInit {
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {
+    this.isFrameLoaded = false;
 
   }
 
   ngOnInit(): void {
+    this.isFrameLoaded = false;
     this.paramSubscription = this._Activatedroute.paramMap.subscribe((params: ParamMap) => {
       this.frameDestination = params.get('dest');
+      this.isFrameLoaded = false;
+
     });
   }
 
@@ -67,6 +71,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
 
     // console.log('Frame Width:' + frameWidth);
     // console.log('Frame Height: ' + frameHeight);
+    this.isFrameLoaded = false;
+
   }
 
   ngOnDestroy() {
@@ -75,10 +81,10 @@ export class FrameComponent implements OnInit, AfterViewInit {
 
   sendMessage(event) {
 
+    console.log('Is Frame Loaded: '|| this.isFrameLoaded);
     if (!this.isFrameLoaded) {
 
       this.isFrameLoaded = true;
-      // console.log('Frame Loaded');
 
       setTimeout(() => {
 

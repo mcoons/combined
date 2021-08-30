@@ -1,3 +1,5 @@
 <div id="frameContainer" #frameContainer>
+    <div id = "calculating" [hidden]="isFrameLoaded ? true : false"><img src="/assets/images/loading.gif"></div>
+
     <iframe id="iframe" #frame [src]="this.urlDict[this.frameDestination] | safe: 'resourceUrl'" (load)='this.sendMessage($event)' allow="microphone *"></iframe>
 </div>
