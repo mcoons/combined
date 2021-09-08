@@ -1,6 +1,6 @@
 # Combined
 
-This is a project site combining some of my projects into an SPA using Angular.  [www.michaelcoons.tech](https://www.michaelcoons.tech)
+This is a project site combining some of my projects into an SPA using Angular.  [www.michaelcoons.tech](https://www.michaelcoons.tech){:target="_blank" rel="noopener"}
 
 ## Why I built this application
 
