@@ -12,7 +12,7 @@ export const appData2D = [
   {
     "name": "New York Times News",
     "img": "/assets/images/reactnews.png",
-    "desc": "This React news app pulls from a New York Times API to display the most popular news.",
+    "desc": "This simple basic React news app pulls from a New York Times API to display the most popular news.",
     "tech": "HTML, CSS, Javascript, React, JSX",
     "link": ['/frame/reactnews'],
     "github": "",

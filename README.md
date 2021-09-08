@@ -33,5 +33,7 @@ My previous project site was looking outdated and was hard to maintain.  I wante
 
 * Revisiting the older projects to fix some of the frame/mobile issues.
 
+* Add a technology filter on the home page once I have more projects.
+
 * CREATE AND ADD MORE PROJECTS!
 
