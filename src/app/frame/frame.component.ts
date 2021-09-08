@@ -61,8 +61,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
     this.paramSubscription = this._Activatedroute.paramMap.subscribe((params: ParamMap) => {
       this.frameDestination = params.get('dest');
       this.isFrameLoaded = false;
-      console.log("frame params");
-      console.log(params);
+      // console.log("frame params");
+      // console.log(params);
     });
   }
 

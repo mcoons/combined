@@ -10,7 +10,7 @@ My previous project site was looking outdated and was hard to maintain.  I wante
 
 * Everything is driven from the arrays of app data objects in [appData.ts](https://github.com/mcoons/combined/blob/main/src/app/appData.ts) which the other components import.  This includes the cards displayed on the home page as well as the Navigation menus.
 
-* Different projects are displayed through the Frame component using an iframe.  The destination is passed by the route and the ActivatedRoute parameter which is used for a url Dictionary lookup in the Frame component.
+* Different projects are displayed through the Frame component using an iframe.  The destination is passed by the route and the ActivatedRoute parameter which is used for a url Dictionary lookup in the [Frame component](https://github.com/mcoons/combined/blob/main/src/app/frame/frame.component.ts).
 
 * New projects can be dynamically added just by updating the appData object and urlDictionary.  
 
@@ -27,4 +27,6 @@ My previous project site was looking outdated and was hard to maintain.  I wante
 * Adding the ability to view projects in a new tab if there are issues as mentioned above.
 
 * Revisiting the older projects to fix some of the frame/mobile issues.
+
+* CREATE AND ADD MORE PROJECTS!
 
