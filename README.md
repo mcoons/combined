@@ -8,23 +8,23 @@ My previous project site was looking outdated and was hard to maintain.  I wante
 
 ## General Implementation Description
 
-Everything is driven from the arrays of app data objects in [appData.ts](https://github.com/mcoons/combined/blob/main/src/app/appData.ts) which the other components import.  This includes the cards displayed on the home page as well as the Navigation menus.
+* Everything is driven from the arrays of app data objects in [appData.ts](https://github.com/mcoons/combined/blob/main/src/app/appData.ts) which the other components import.  This includes the cards displayed on the home page as well as the Navigation menus.
 
-Different projects are displayed through the Frame component using an iframe.  The destination is passed by the route and the ActivatedRoute parameter which is used for a url Dictionary lookup in the Frame component.
+* Different projects are displayed through the Frame component using an iframe.  The destination is passed by the route and the ActivatedRoute parameter which is used for a url Dictionary lookup in the Frame component.
 
-New projects can be dynamically added just by updating the appData objects and urlDictionary.  
+* New projects can be dynamically added just by updating the appData object and urlDictionary.  
 
 ## Current Issues
 
-Some projects are not as frame friendly as others.  Some projects are not as mobile friendly as others.  This is due to when the projects were created and my knowledge at that time. 
+* Some projects are not as frame friendly as others.  Some projects are not as mobile friendly as others.  This is due to when the projects were created and my knowledge at that time. 
 
-External links to some sites don't allow their content to be displayed in iFrames.
+* External links to some sites don't allow their content to be displayed in iFrames.
 
 ## Future Additions/Fixes when I get time
 
-Moving the url Dictionary entries into the appData objects so everything is in one convenient place.  This should make adding a new project even simpler.
+* Moving the url Dictionary entries into the appData objects so everything is in one convenient place.  This should make adding a new project even simpler.
 
-Adding the ability to view projects in a new tab if there are issues as mentioned above.
+* Adding the ability to view projects in a new tab if there are issues as mentioned above.
 
-Revisiting the older projects to fix some of the frame/mobile issues.
+* Revisiting the older projects to fix some of the frame/mobile issues.
 
