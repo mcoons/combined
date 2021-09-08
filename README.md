@@ -25,15 +25,21 @@ My previous project site was looking outdated and was hard to maintain.  I wante
 
 * External links to some sites don't allow their content to be displayed in iFrames.
 
+* Some project servers take a little time to power up since they are on free plans.
+
+* No integration testing.
+
 ## Future Additions/Fixes when I get time
 
 * Moving the url Dictionary entries into the appData objects so everything is in one convenient place.  This should make adding a new project even simpler.
 
-* Adding the ability to view projects in a new tab if there are issues as mentioned above.
+* Implement testing.
 
-* Revisiting the older projects to fix some of the frame/mobile issues.
+* Add the ability to view projects in a new tab if there are issues as mentioned above.
+
+* Revisit the older projects to fix some of the frame/mobile issues.
 
 * Add a technology filter on the home page once I have more projects.
 
-* CREATE AND ADD MORE PROJECTS!
+* **CREATE AND ADD MORE PROJECTS!**
 
