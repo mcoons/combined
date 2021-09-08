@@ -25,11 +25,11 @@
 }
 
 hr.solid {
-  border-top: 3px solid #226FCE;
+  /* border-top: 3px solid #226FCE; */
   margin-top: 3px;
   margin-bottom: 3px;
-  background-image: linear-gradient(to right, #0D47A0  , #3999FE);
-
+  background: linear-gradient(to right, #0D47A0  , #3999FE);
+  height: 2px;
 }
 
 

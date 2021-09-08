@@ -1,27 +1,30 @@
 # Combined
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+This is a project site combining some of my projects into an SPA using Angular.
 
-## Development server
+## Why I built this application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+My previous project site was looking outdated and was hard to maintain.  I wanted to apply my new Angular knowledge to create a better looking site that was more mobile friendly.  I also wanted a simpler way to be able to add new projects which this implementation achieves.
 
-## Code scaffolding
+## General Implementation Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Everything is driven from the arrays of app data objects in [appData.ts](https://github.com/mcoons/combined/blob/main/src/app/appData.ts) which the other components import.  This includes the cards displayed on the home page as well as the Navigation menus.
 
-## Build
+Different projects are displayed through the Frame component using an iframe.  The destination is passed by the route and the ActivatedRoute parameter which is used for a url Dictionary lookup in the Frame component.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+New projects can be dynamically added just by updating the appData objects and urlDictionary.  
 
-## Running unit tests
+## Current Issues
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Some projects are not as frame friendly as others.  Some projects are not as mobile friendly as others.  This is due to when the projects were created and my knowledge at that time. 
 
-## Running end-to-end tests
+External links to some sites don't allow their content to be displayed in iFrames.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Future Additions/Fixes when I get time
 
-## Further help
+Moving the url Dictionary entries into the appData objects so everything is in one convenient place.  This should make adding a new project even simpler.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Adding the ability to view projects in a new tab if there are issues as mentioned above.
+
+Revisiting the older projects to fix some of the frame/mobile issues.
+

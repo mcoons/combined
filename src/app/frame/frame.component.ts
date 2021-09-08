@@ -61,7 +61,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
     this.paramSubscription = this._Activatedroute.paramMap.subscribe((params: ParamMap) => {
       this.frameDestination = params.get('dest');
       this.isFrameLoaded = false;
-
+      console.log("frame params");
+      console.log(params);
     });
   }
 
@@ -72,7 +73,6 @@ export class FrameComponent implements OnInit, AfterViewInit {
     // console.log('Frame Width:' + frameWidth);
     // console.log('Frame Height: ' + frameHeight);
     this.isFrameLoaded = false;
-
   }
 
   ngOnDestroy() {
