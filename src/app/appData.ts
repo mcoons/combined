@@ -37,6 +37,15 @@ export const appData2D = [
     "published": "http://spartans.michaelcoons.tech"
   },
   {
+    "name": "3D Table of Elements",
+    "img": "/assets/images/cssatoms.png",
+    "desc": "Animated Table of Elements disappearing into infinity.",
+    "tech": "HTML, CSS, JavaScript",
+    "link": "/frame/cssatoms",
+    "github": "https://github.com/mcoons/css_atoms",
+    "published": "https://mcoons.github.io/css_atoms/"
+  },
+  {
     "name": "Snowflake Overlay",
     "img": "/assets/images/snowflakes.png",
     "desc": "This is a canvas overlay that simulates snowflakes falling. There are random wind and intensity changes along with random snowflake properties.  Multiple canvas elements are used for preloading and fading between images.",
@@ -110,6 +119,15 @@ export const appData3D = [
     "link": "/frame/noise",
     "github": "https://github.com/mcoons/noise",
     "published": "http://noise.michaelcoons.tech"
+  },
+  {
+    "name": "3D Table of Elements",
+    "img": "/assets/images/babylonatoms.png",
+    "desc": "Animated Table of Elements disappearing into infinity.",
+    "tech": "HTML, CSS, JavaScript and Babylon.JS",
+    "link": "/frame/babylonatoms",
+    "github": "https://github.com/mcoons/babylon_atoms",
+    "published": "https://mcoons.github.io/babylon_atoms/"
   },
   {
     "name": "Menger Sponge Take 1",

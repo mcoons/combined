@@ -48,7 +48,9 @@ export class FrameComponent implements OnInit, AfterViewInit {
     'reactnews':'https://mcoons.github.io/react-news/?fromIframe=true',
     'g90':'https://g90.herokuapp.com/students',
     'spartans':'https://spartanfb.herokuapp.com/',
-    '3dcharts':'https://mcoons.github.io/3dcharts/'
+    '3dcharts':'https://mcoons.github.io/3dcharts/',
+    'babylonatoms':'https://mcoons.github.io/babylon_atoms/',
+    'cssatoms':'https://mcoons.github.io/css_atoms/'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {
