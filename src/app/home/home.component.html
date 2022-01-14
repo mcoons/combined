@@ -1,32 +1,138 @@
-<div id="homeContainer">
-    <br>
-    <img id="me" src="/assets/images/me.jpg" alt="Authors image">
-    <h2>Greetings and Salutations!</h2>
-    <p>Welcome to my site where I showcase some of my personal projects including this website written using Angular.  All projects are original and not tutorials.</p>
-    <p>Projects can be accessed through the menu system or through the summaries below. Not all projects are mobile friendly.</p>
-    <p>Some project servers may take a few seconds to spool up.</p>
-    <hr class="solid">
-    <h2 id="stuff2d" >2D Projects</h2>
-    <hr class="solid">
-    <br>
-    <div fxLayout="row wrap" fxLayoutGap="16px grid">
-        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
-            *ngFor="let item of appData2D; let i = index">
-            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
-        </div>
-    </div>
-    <br>
-    <hr class="solid">
-    <h2 id="stuff3d" >3D Projects</h2>
-    <hr class="solid">
-    <br>
-    <div fxLayout="row wrap" fxLayoutGap="16px grid">
-        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
-            *ngFor="let item of appData3D; let i = index">
-            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
+<!-- <br>
+<img id="me" src="/assets/images/me.jpg" alt="Authors image">
+<h2>Greetings and Salutations!</h2>
+<p>Welcome to my site where I showcase some of my personal projects including this website written using Angular.  All projects are original and not tutorials.</p>
+<p>Projects can be accessed through the menu system or through the summaries below. Not all projects are mobile friendly.</p>
+<p>Some project servers may take a few seconds to spool up.</p>
+<hr class="solid">
+<h2 id="home" >Home</h2>
+<hr class="solid">
+<br> -->
+
+<div class="ParallaxMainContainer">
+
+    <div class="ParallaxBackground1"></div>
+
+    <div class="ParallaxContainer1 h1_3d">
+        <div id="title_text">
+            <h1>Michael Coons</h1>
+            <h2>Software Developer</h2>
+            <h2>Photographer</h2>
+            <h2>&</h2>
+            <h2>Science Geek</h2>
+            <img style="display:block;width:30px; height: 30px;   margin-left: auto; margin-right: auto;" src="../../assets/images/arrow-down.gif" alt="dwon arrow">
+            <img style="display:block;width:30px; height: 30px;   margin-left: auto; margin-right: auto;" src="../../assets/images/arrow-down.gif" alt="dwon arrow"> 
         </div>
     </div>
 
+    <div class="ContentContainer">
+        <div class="Content AboutContent">
+            <div class="card">
+                <h3>A Little About Me</h3>
+                <br>
+                <p>I managed an IT Department for over 15 years. Our company grew from a few offices to over twenty
+                    offices around Indiana while I was there.
+                    During that time I learned many facets about IT from building custom desktops to managing Active
+                    Directory, Exchange and DNS servers
+                    to creating VPNs between offices using various routers. Through out this time I used things like
+                    batch files, Powershell, Winforms and .NET libraries to help automate common
+                    tasks such as user onboarding, reminder emails and converting paper forms to automated electronic
+                    versions.</p>
+                <p>The things that I enjoyed the most in the IT Department were the things that had to do with
+                    programming. When I decided on a career change,
+                    I wanted to target solving problems with programming. So, after researching the best bootcamps
+                    around, I moved out to Colorado and enrolled
+                    in a 6 month long emersive web development program at Galvanize to refresh my skills for the current
+                    landscape.</p>
+            </div>
+        </div>
+        <br>
+        <div class="DevelopmentContent">
+            <div class="developmentSection h1_3d">
+                <h1>SOFTWARE DEVELOPER</h1>
+            </div>
+            <div class="Content">
+                <div class="card">
+                    <h3>Software Developer</h3>
+                    <br>
+                    <p>As a young teenager, the idea that I could type commands into a computer and create anything that I could imagine, is what
+                        inspired me to learn about computers. I was immediately drawn to the graphics capabilities and
+                        that passion continues to this day.  Whenever I'm learning a new language, one of the first things I ask myself is; I wonder how I can draw things?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="PhotoContent">
+            <div class="photoSection h1_3d">
+                <h1>PHOTOGRAPHER</h1>
+            </div>
+            <div class="Content">
+                <div class="card">
+                    <h3>Photographer</h3>
+                    <br>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="ScienceContent">
+            <!-- <div class="scienceSection h1_3d"><h1>SCIENCE GEEK</h1></div> -->
+            <iframe id="iframe" #frame src='https://mcoons.github.io/css_atoms' loading="lazy" title="Animated elements"></iframe>
+            <h1 id="over" class="h1_3d">SCIENCE GEEK</h1>
+            <div class="Content">
+                <div class="card">
+                    <h3>Science Geek</h3>
+                    <br>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolortent sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam,
+                        voluptate facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed magni nobis veniam, voluptate
+                        facere officia quasi.</p>
+                    <p>provident doloremque ea sit ullam illum eius excepturi cum esse quo accusantium ex!</p>
+                </div>
+            </div>
+        </div>
 
+    </div>
 
 </div>

@@ -2,7 +2,7 @@ export const appData2D = [
    
   {
     "name": "Pomodoro Clock",
-    "img": "/assets/images/pomodoro.png",
+    "img": "/assets/images/pomodoro.webp",
     "desc": "This is my take on a Pomodoro app to help with Time Management. This utilizes the Howler.js library for sound and local storage to cache settings.",
     "tech": "HTML, CSS, JavaScript, Howler.js and multiple Canvas element overlays.",
     "link": ['/frame/pomodoroclock'],
@@ -11,7 +11,7 @@ export const appData2D = [
   },
   {
     "name": "New York Times News",
-    "img": "/assets/images/reactnews.png",
+    "img": "/assets/images/reactnews.webp",
     "desc": "This simple basic React news app pulls from a New York Times API to display the most popular news.",
     "tech": "HTML, CSS, Javascript, React, JSX",
     "link": ['/frame/reactnews'],
@@ -20,7 +20,7 @@ export const appData2D = [
   },
   {
     "name": "g90 Cohort Directory",
-    "img": "/assets/images/g90.png",
+    "img": "/assets/images/g90.webp",
     "desc": "This is a directory of our Galvanize cohort so we can keep in touch. It is a full stack server side CRUD app written using Node, Express and EJS. It uses Knex with a PostgreSQL database.",
     "tech": "Node, JavaScript, Express, EJS, Knex and PostgreSQL",
     "link": "/frame/g90",
@@ -29,7 +29,7 @@ export const appData2D = [
   },
   {
     "name": "Spartans Fan Page",
-    "img": "/assets/images/spartans.png",
+    "img": "/assets/images/spartans.webp",
     "desc": "This is a server side rendered app written for the Spartan parents so they can download pictures that I take of the players. It has very low maintenance. I just add a new image directory and it dynamically updates the menu and pages by reading the file system.",
     "tech": "Node, Express, JavaScript and EJS",
     "link": "/frame/spartans",
@@ -38,7 +38,7 @@ export const appData2D = [
   },
   {
     "name": "3D Table of Elements",
-    "img": "/assets/images/cssatoms.png",
+    "img": "/assets/images/cssatoms.webp",
     "desc": "Animated Table of Elements disappearing into infinity.",
     "tech": "HTML, CSS, JavaScript",
     "link": "/frame/cssatoms",
@@ -47,7 +47,7 @@ export const appData2D = [
   },
   {
     "name": "Snowflake Overlay",
-    "img": "/assets/images/snowflakes.png",
+    "img": "/assets/images/snowflakes.webp",
     "desc": "This is a canvas overlay that simulates snowflakes falling. There are random wind and intensity changes along with random snowflake properties.  Multiple canvas elements are used for preloading and fading between images.",
     "tech": "HTML, CSS, JavaScript",
     "link": "/frame/snow",
@@ -56,7 +56,7 @@ export const appData2D = [
   },
   {
     "name": "Polar Equations",
-    "img": "/assets/images/polareqs.png",
+    "img": "/assets/images/polareqs.webp",
     "desc": "This app allows you to explore Polar Equations. It utilizes local storage to cache settings.",
     "tech": "HTML, CSS, JavaScript and multiple Canvas element overlays.",
     "link": "/frame/polareqs",
@@ -65,7 +65,7 @@ export const appData2D = [
   },
   {
     "name": "Simple Sprite Creator",
-    "img": "/assets/images/spritemaker2.png",
+    "img": "/assets/images/spritemaker2.webp",
     "desc": "An advanced pixel art application. It has multiple brush sizes, undo options, smart background, import/export among other features.",
     "tech": "HTML, CSS, JavaScript",
     "link": "/frame/pixelpaint",
@@ -77,7 +77,7 @@ export const appData2D = [
 export const appData3D = [
   {
     "name": "3D Music Visualizer",
-    "img": "/assets/images/visualizer.png",
+    "img": "/assets/images/visualizer.webp",
     "desc": "An MP3 player with multiple interactive 3D visuals.  Play local MP3s.  Microphone support to watch youself sing.  Frequency analysis and graphing.  Customize visuals and save them to your favorites.",
     "tech": "Angular, Typescript and Babylon.JS",
     "link": "/frame/mp3player",
@@ -86,7 +86,7 @@ export const appData3D = [
   },
   {
     "name": "Tower Game POC",
-    "img": "/assets/images/TowerOfThree.png",
+    "img": "/assets/images/TowerOfThree.webp",
     "desc": "Galvanize Capstone Project  Given 10 days to come up with a project idea using an unfamiliar technology and build it.  It's a proof of concept for a 3D logic tower game.  It uses an event bus architecture for component communication.",
     "tech": "Frontend: HTML, CSS, JavaScript and ThreeJS. Backend: Node, Express, Knex, PostgreSQL",
     "link": "/frame/towerpoc",
@@ -95,7 +95,7 @@ export const appData3D = [
   },
   {
     "name": "Tower Game Prototype",
-    "img": "/assets/images/towerunity.png",
+    "img": "/assets/images/towerunity.webp",
     "desc": "Expanding on the Tower POC, I'm using Unity 3D to build the game for eventual publishing and distribution on multiple platforms.",
     "tech": "Unity 3D, C#",
     "link": "/frame/tower",
@@ -104,7 +104,7 @@ export const appData3D = [
   },
   {
     "name": "3D Charting Library POC",
-    "img": "/assets/images/3dchartlibrarypoc.png",
+    "img": "/assets/images/3dchartlibrarypoc.webp",
     "desc": "Proof of concept for a 3D charting library.  Includes Bar, Stacked Bar, 3D Bar, Pie, Line and two Guage charts.  Multiple interactive 3D scenes.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/3dcharts",
@@ -113,7 +113,7 @@ export const appData3D = [
   },
   {
     "name": "3D Noise",
-    "img": "/assets/images/noise.png",
+    "img": "/assets/images/noise.webp",
     "desc": "This is an exploration of perlin and simplex noise. I use the noise to produce multiple 2D and 3D textures.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/noise",
@@ -122,7 +122,7 @@ export const appData3D = [
   },
   {
     "name": "3D Table of Elements",
-    "img": "/assets/images/babylonatoms.png",
+    "img": "/assets/images/babylonatoms.webp",
     "desc": "Animated Table of Elements disappearing into infinity.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/babylonatoms",
@@ -131,7 +131,7 @@ export const appData3D = [
   },
   {
     "name": "Menger Sponge Take 1",
-    "img": "/assets/images/menger.png",
+    "img": "/assets/images/menger.webp",
     "desc": "This was my first attempt at a Menger Sponge but unfortunately it <b>took over 3.8 million vertices</b> to render.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/menger",
@@ -140,7 +140,7 @@ export const appData3D = [
   }, 
   {
     "name": "Menger Sponge w/ Clones",
-    "img": "/assets/images/mengerclones.png",
+    "img": "/assets/images/mengerclones.webp",
     "desc": "By utilizing CSG (Constructive Solid Geometry) I was able to reduce the vertices <b>down to 1,492,120 from 3,840,000</b>. Clones were also used to help with optimization.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/mengerclones",
@@ -149,7 +149,7 @@ export const appData3D = [
   },
   {
     "name": "Menger Sponge w/ Planes",
-    "img": "/assets/images/mengerplanes.png",
+    "img": "/assets/images/mengerplanes.webp",
     "desc": "This third implementation quickly generates an L4 Menger sponge <b>using only 984 vertices instead of 3,840,000!!</b> It uses planes and textures for the different layers of the sponge.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/mengerplanes",
@@ -158,7 +158,7 @@ export const appData3D = [
   },
   {
     "name": "RGB Cube",
-    "img": "/assets/images/rgbcube.png",
+    "img": "/assets/images/rgbcube.webp",
     "desc": "A simple interactive RGB cube",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/rgbcube",
@@ -167,7 +167,7 @@ export const appData3D = [
   },
   {
     "name": "Four Camera Template for BabylonJS",
-    "img": "/assets/images/babylon4port.png",
+    "img": "/assets/images/babylon4port.webp",
     "desc": "A Babylon template displaying 4 different cameras/viewports on the same canvas element.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/babylon4port",

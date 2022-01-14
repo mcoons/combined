@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://community.auth0.com/embed/comments?topic_id=52854 -->
+<html class="discourse-comment"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <link href="./embed_735e034d6c846288a1e2c5992f9448bd9a593dc0.css" media="all" rel="stylesheet" data-target="embed">
+      <link href="./embedded_theme_25_a04fcf379fcd05f9a50ef007606ade975f96bb78.css" media="all" rel="stylesheet" data-target="embedded_theme" data-theme-id="25" data-theme-name="material design theme">
+<link href="./embedded_theme_14_d4807ca8a88affc09415c1f5f2e3c659b7dfb4ec.css" media="all" rel="stylesheet" data-target="embedded_theme" data-theme-id="14" data-theme-name="auth0 changes">
+    <link rel="preload" href="./break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.br.js" as="script">
+<script src="./break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.br.js"></script>
+
+
+      <title>The Complete Guide to Node.js User Authentication with Auth0 - Auth0 Community</title>
+
+    <meta id="data-embedded" data-referer="https://auth0.com/blog/complete-guide-to-nodejs-express-user-authentication/">
+    <link rel="preload" href="./embed-application-9cef8308c816fc1d83137e63d6c556c6cc2b68fe2b6e5ce16cca6766ba2c0ae4.br.js" as="script">
+<script src="./embed-application-9cef8308c816fc1d83137e63d6c556c6cc2b68fe2b6e5ce16cca6766ba2c0ae4.br.js"></script>
+
+
+    
+  </head>
+  <body>
+    <header class="discourse" data-embed-state="loaded">
+  <span class="replies">1 reply</span>
+</header>
+
+    <article class="post" id="post-177755">
+      <a title="May 20, 2021  4:37pm" class="post-date" target="_blank" href="https://community.auth0.com/t/the-complete-guide-to-node-js-user-authentication-with-auth0/52854/2">20 May</a>
+
+      <div class="author">
+        <a href="https://community.auth0.com/u/nathaniel.tagg" target="_blank"><img src="./29490_2.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.auth0.com/u/nathaniel.tagg" target="_blank" class="">nathaniel.<wbr>​tagg</a>
+        </h3>
+        <p>This seems a helpful guide. I’ve been using the auth0-passport interface, and this seems to get at what I want in a cleaner way.  Also, it allows using hints for sign-up or log-in, which I like.</p>
+<p>However, there’s one thing I figured out with auth0-passport I cannot figure out here.  How does my node.js application see what permissions a user has?  For example, I have created a role called “creator” and given it a permission called “components:create”.  In the Passport scheme, I turned on RBAC in the dashboard, and then decoded the access token in the Passport callback to get at the user permissions; if the “components:create” permission existed in that list, I would allow that user to submit a new component to my database.</p>
+<p>However, in this library, I can’t figure out how to get at those user permissions. There are good examples for retrieving user Roles, but not for getting at the actual fine-grained permissions.  Swapping back to the Passport code, the permissions are still showing up, but I can’t get at them with this library</p>
+<p>I’ve tried writing a Rule or Action to get at permissions and copy them to a custom claim, but I can’t figure out how to get them from within an Action.</p>
+<p>Also: what does the session: option actually do?  It’s not using an express-session store, although it seems like it’s configured like one.  Should I be using it? If not, why not? If so, how do I store my own session state data?</p>
+<p>Thanks for any help.</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="https://community.auth0.com/"><img class="logo" src="./a0a1ae32e97116df8e41fa7148039c9e9fccd260.png"></a>
+      <a class="button" target="_blank" href="https://community.auth0.com/t/the-complete-guide-to-node-js-user-authentication-with-auth0/52854/2">Continue Discussion</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  
+
+</body></html>

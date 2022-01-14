@@ -1,0 +1,32 @@
+<div id="projectsContainer">
+    <br>
+    <img id="me" src="/assets/images/me.webp" alt="Authors image">
+    <h2>Greetings and Salutations!</h2>
+    <p>Welcome to my site where I showcase some of my personal projects including this website written using Angular.  All projects are original and not tutorials.</p>
+    <p>Projects can be accessed through the menu system or through the summaries below. Not all projects are mobile friendly.</p>
+    <p>Some project servers may take a few seconds to spool up.</p>
+    <hr class="solid">
+    <h2 id="stuff2d" >2D Projects</h2>
+    <hr class="solid">
+    <br>
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
+            *ngFor="let item of appData2D; let i = index">
+            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
+        </div>
+    </div>
+    <br>
+    <hr class="solid">
+    <h2 id="stuff3d" >3D Projects</h2>
+    <hr class="solid">
+    <br>
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
+            *ngFor="let item of appData3D; let i = index">
+            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
+        </div>
+    </div>
+
+
+
+</div>

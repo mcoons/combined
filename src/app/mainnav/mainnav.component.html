@@ -1,7 +1,7 @@
 <nav id="mainNav" #mainNav class="navbar navbar-expand-sm navbar-dark bg-primary ">
   <a class="navbar-brand" routerLink="home">
     <img id="logo" alt="MichelCoons.Tech Logo"
-      src="/assets/images/logo.png">
+      src="/assets/images/logo.webp">
     michaelcoons.tech
   </a>
 
@@ -11,8 +11,13 @@
 
   <div class="collapse navbar-collapse white" [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav mr-auto">
+
       <li class="nav-item">
         <a class="nav-link white" routerLink="home" (click)="toggleNavbar()">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link white" routerLink="projects" (click)="toggleNavbar()">Projects</a>
       </li>
 
       <li class="nav-item dropdown">
