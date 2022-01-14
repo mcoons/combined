@@ -10,10 +10,10 @@ app.use(compression());
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist/combined'));
 
-app.get('/robots.txt', function (req, res) {
-    res.type('text/plain');
-    res.send("User-agent: *\nDisallow: /");
-});
+// app.get('/robots.txt', function (req, res) {
+//     res.type('text/plain');
+//     res.send("User-agent: *\nDisallow: /");
+// });
 
 app.get('/*', function(req,res) {
     
