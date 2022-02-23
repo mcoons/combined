@@ -39,7 +39,7 @@ export const appData2D = [
   {
     "name": "3D Table of Elements",
     "img": "/assets/images/cssatoms.png",
-    "desc": "Animated Table of Elements disappearing into infinity.",
+    "desc": "Animated Table of Elements disappearing into infinity.  This uses CSS 3D Transforms.",
     "tech": "HTML, CSS, JavaScript",
     "link": "/frame/cssatoms",
     "github": "https://github.com/mcoons/css_atoms",
@@ -103,6 +103,15 @@ export const appData3D = [
     "published": ""
   },
   {
+    "name": "Conway's Game of Life Simulation",
+    "img": "/assets/images/life.png",
+    "desc": "Unity C# implementation of Conway's Game of Life Cellular Automation.  It begins with a random initial boards.",
+    "tech": "Unity 3D, C#",
+    "link": "/frame/life",
+    "github": "",
+    "published": ""
+  },
+  {
     "name": "3D Charting Library POC",
     "img": "/assets/images/3dchartlibrarypoc.png",
     "desc": "Proof of concept for a 3D charting library.  Includes Bar, Stacked Bar, 3D Bar, Pie, Line and two Guage charts.  Multiple interactive 3D scenes.",
@@ -123,7 +132,7 @@ export const appData3D = [
   {
     "name": "3D Table of Elements",
     "img": "/assets/images/babylonatoms.png",
-    "desc": "Animated Table of Elements disappearing into infinity.",
+    "desc": "Animated Table of Elements disappearing into infinity. This uses the Babylon 3D Engine.",
     "tech": "HTML, CSS, JavaScript and Babylon.JS",
     "link": "/frame/babylonatoms",
     "github": "https://github.com/mcoons/babylon_atoms",

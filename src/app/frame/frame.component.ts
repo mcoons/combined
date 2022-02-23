@@ -50,7 +50,8 @@ export class FrameComponent implements OnInit, AfterViewInit {
     'spartans':'https://spartanfb.herokuapp.com/',
     '3dcharts':'https://mcoons.github.io/3dcharts/',
     'babylonatoms':'https://mcoons.github.io/babylon_atoms/',
-    'cssatoms':'https://mcoons.github.io/css_atoms/'
+    'cssatoms':'https://mcoons.github.io/css_atoms/',
+    'life':'https://mcoons.github.io/conways-life/'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {
