@@ -61,3 +61,12 @@ mat-card-footer {
     color: #000000;
     padding-top: 5px;
   }
+
+  video {
+    margin: auto auto;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }

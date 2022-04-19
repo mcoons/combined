@@ -76,9 +76,18 @@ export const appData2D = [
 
 export const appData3D = [
   {
+    "name": "VR Music Platform",
+    "img": "/assets/videos/VR_Music_Platform.mp4",
+    "desc": "VR Music platform recorded from an Oculus Quest 2.  Created with Unity.  VR implementation of a Music visualizer.",
+    "tech": "Unity, C#, XR integration Toolkit",
+    "link": "",
+    "github": "",
+    "published": ""
+  },  
+  {
     "name": "3D Music Visualizer",
     "img": "/assets/images/visualizer.png",
-    "desc": "An MP3 player with multiple interactive 3D visuals.  Play local MP3s.  Microphone support to watch youself sing.  Frequency analysis and graphing.  Customize visuals and save them to your favorites.",
+    "desc": "An MP3 player with multiple interactive 3D visuals. (Click/Hold to Move and Scroll to Zoom)  Play local MP3s.  Frequency analysis and graphing.  Customize visuals and save them to your favorites.",
     "tech": "Angular, Typescript and Babylon.JS",
     "link": "/frame/mp3player",
     "github": "",
@@ -174,13 +183,5 @@ export const appData3D = [
     "github": "",
     "published": ""
   },
-  {
-    "name": "Four Camera Template for BabylonJS",
-    "img": "/assets/images/babylon4port.png",
-    "desc": "A Babylon template displaying 4 different cameras/viewports on the same canvas element.",
-    "tech": "HTML, CSS, JavaScript and Babylon.JS",
-    "link": "/frame/babylon4port",
-    "github": "",
-    "published": ""
-  },
+
 ];

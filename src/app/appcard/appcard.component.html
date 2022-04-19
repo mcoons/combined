@@ -1,12 +1,24 @@
 <div class="content" fxFlexAlign="stretch stretch" fxLayoutAlign="space-evenly stretch">
 
     <mat-card class="mat-elevation-z4" flex routerLink={{carditem.link}} [queryParams]="{frame: true}">
-        <a routerLink={{carditem.link}} [queryParams]="{frame: true}">
+        <div *ngIf="!carditem.img.endsWith('.mp4')">
+            <a routerLink={{carditem.link}} [queryParams]="{frame: true}">
+                <mat-card-header>
+                    {{carditem.name}}
+                </mat-card-header>
+                <img mat-card-image src={{carditem.img}} alt="Application image">
+            </a>
+        </div>
+        <div class="video" *ngIf="carditem.img.endsWith('.mp4')">
             <mat-card-header>
                 {{carditem.name}}
             </mat-card-header>
-            <img mat-card-image src={{carditem.img}} alt="Application image">
-        </a>
+            
+                <video controls>
+                    <source src={{carditem.img}} type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+        </div>
 <br>
         <!-- <mat-card-content>{{carditem.desc}}</mat-card-content> -->
         <mat-card-content><div [innerHTML]="carditem.desc"></div></mat-card-content>
@@ -14,3 +26,14 @@
     </mat-card>
 
 </div>
+
+<!-- <a routerLink={{carditem.link}} [queryParams]="{frame: true}">
+    <mat-card-header>
+        {{carditem.name}}
+    </mat-card-header>
+    
+        <video width="320" height="240" controls style="margin:auto">
+            <source src={{carditem.img}} type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+</a> -->

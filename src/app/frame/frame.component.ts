@@ -32,6 +32,7 @@ export class FrameComponent implements OnInit, AfterViewInit {
   frameContainer: ElementRef;
 
   public urlDict = {
+    'vrmusic':'https://mcoons.github.io/combined/assets/videos/VR_Music_Platform.mp4',
     'menger':'https://mcoons.github.io/menger/',
     'mp3player'    : 'https://soundanalyzer.michaelcoons.tech?fromIframe=true',
     'polareqs': 'https://polareqs.michaelcoons.tech?fromIframe=true',
@@ -89,19 +90,19 @@ export class FrameComponent implements OnInit, AfterViewInit {
 
       this.isFrameLoaded = true;
 
-      setTimeout(() => {
+      // setTimeout(() => {
 
-        this.frame.nativeElement.contentWindow.postMessage(
-          {
-            call: 'sendValue',
-            value: 'data',
-            time: new Date().toLocaleTimeString()
-          },
-          // window.location.origin
-          '*'
-        );
+      //   this.frame.nativeElement.contentWindow.postMessage(
+      //     {
+      //       call: 'sendValue',
+      //       value: 'data',
+      //       time: new Date().toLocaleTimeString()
+      //     },
+      //     // window.location.origin
+      //     '*'
+      //   );
 
-      }, 5000);
+      // }, 5000);
     }
   }
 
