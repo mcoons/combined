@@ -5,7 +5,7 @@ export const appData2D = [
     "img": "/assets/images/pomodoro.png",
     "desc": "This is my take on a Pomodoro app to help with Time Management. This utilizes the Howler.js library for sound and local storage to cache settings.",
     "tech": "HTML, CSS, JavaScript, Howler.js and multiple Canvas element overlays.",
-    "link": ['/frame/pomodoroclock'],
+    "link": "/frame/pomodoroclock",
     "github": "https://github.com/mcoons/pomodoro",
     "published": "http://pomodoro.michaelcoons.tech"
   },
@@ -14,7 +14,7 @@ export const appData2D = [
     "img": "/assets/images/reactnews.png",
     "desc": "This simple basic React news app pulls from a New York Times API to display the most popular news.",
     "tech": "HTML, CSS, Javascript, React, JSX",
-    "link": ['/frame/reactnews'],
+    "link": "/frame/reactnews",
     "github": "",
     "published": ""
   },
@@ -76,14 +76,41 @@ export const appData2D = [
 
 export const appData3D = [
   {
-    "name": "VR Music Platform",
-    "img": "/assets/videos/VR_Music_Platform.mp4",
-    "desc": "VR Music platform recorded from an Oculus Quest 2.  Created with Unity.  VR implementation of a Music visualizer.",
-    "tech": "Unity, C#, XR integration Toolkit",
-    "link": "",
+    "name": "20th Century Studios Logo",
+    "img": "/assets/images/20thCenturyStudios.png",
+    "desc": "Recreation of the logo for 20th Century Studios.  Created with <b>Unity 3D</b> during lighting and camera exploration.",
+    "tech": "Unity 3D, C#",
+    "link": "/assets/videos/20thCenturyStudios.mp4",
     "github": "",
     "published": ""
   },  
+  {
+    "name": "VR Music Platform",
+    "img": "/assets/images/VR_Music_Platform.png",
+    "desc": "VR Music platform recorded from an <b>Oculus Quest 2</b>.  Created with <b>Unity 3D</b>.  VR implementation of a Music visualizer.",
+    "tech": "Unity 3D, C#, XR integration Toolkit",
+    "link": "/assets/videos/VR_Music_Platform.mp4",
+    "github": "",
+    "published": ""
+  },  
+  {
+    "name": "Tower Game Prototype",
+    "img": "/assets/images/towerunity.png",
+    "desc": "Using <b>Unity 3D</b> to prototype a 3D Tower logic game for eventual publishing and distribution on multiple platforms.",
+    "tech": "Unity 3D, C#",
+    "link": "/frame/tower",
+    "github": "",
+    "published": ""
+  },
+  {
+    "name": "Conway's Game of Life Simulation",
+    "img": "/assets/images/life.png",
+    "desc": "<b>Unity 3D</b> implementation of Conway's Game of Life Cellular Automation using C#.  It begins with a random initial boards.",
+    "tech": "Unity 3D, C#",
+    "link": "/frame/life",
+    "github": "",
+    "published": ""
+  },
   {
     "name": "3D Music Visualizer",
     "img": "/assets/images/visualizer.png",
@@ -101,24 +128,6 @@ export const appData3D = [
     "link": "/frame/towerpoc",
     "github": "https://github.com/mcoons/tower-of-horror",
     "published": "https://towerofhorror.herokuapp.com/index.html"
-  },
-  {
-    "name": "Tower Game Prototype",
-    "img": "/assets/images/towerunity.png",
-    "desc": "Expanding on the Tower POC, I'm using Unity 3D to build the game for eventual publishing and distribution on multiple platforms.",
-    "tech": "Unity 3D, C#",
-    "link": "/frame/tower",
-    "github": "",
-    "published": ""
-  },
-  {
-    "name": "Conway's Game of Life Simulation",
-    "img": "/assets/images/life.png",
-    "desc": "Unity C# implementation of Conway's Game of Life Cellular Automation.  It begins with a random initial boards.",
-    "tech": "Unity 3D, C#",
-    "link": "/frame/life",
-    "github": "",
-    "published": ""
   },
   {
     "name": "3D Charting Library POC",
@@ -174,14 +183,97 @@ export const appData3D = [
     "github": "https://github.com/mcoons/mengerplanes",
     "published": "https://mcoons.github.io/mengerplanes"
   },
-  {
-    "name": "RGB Cube",
-    "img": "/assets/images/rgbcube.png",
-    "desc": "A simple interactive RGB cube",
-    "tech": "HTML, CSS, JavaScript and Babylon.JS",
-    "link": "/frame/rgbcube",
-    "github": "",
-    "published": ""
-  },
+  // {
+  //   "name": "RGB Cube",
+  //   "img": "/assets/images/rgbcube.png",
+  //   "desc": "A simple interactive RGB cube",
+  //   "tech": "HTML, CSS, JavaScript and Babylon.JS",
+  //   "link": "/frame/rgbcube",
+  //   "github": "",
+  //   "published": ""
+  // },
 
+];
+
+export const siteData = [
+  {
+    "group":"Unity",
+    "name": "Unity",
+    "desc": "Official Unity main site.",
+    "link":"https://unity.com/"
+  },
+  {
+    "group":"Unity",
+    "name": "Unity Learn",
+    "desc": "Official Unity Learn site.",
+    "link":"https://learn.unity.com/"
+  },
+  {
+    "group":"Unity",
+    "name": "Unity Gaming Services",
+    "desc": "Main developer entry point for Projects, Dashboard and Services",
+    "link":"https://dashboard.unity3d.com/login?redirectTo=Lw=="
+  },
+  {
+    "group":"Unity",
+    "name": "Unity Technologies GitHub ",
+    "desc": "Github for Unity code sources",
+    "link":"https://github.com/Unity-Technologies"
+  },
+  {
+    "group":"Unity",
+    "name": "Unity Documentation",
+    "desc": "Manual and Scripting API documentation",
+    "link":"https://docs.unity3d.com/Manual/index.html"
+  },
+  {
+    "group":"Ocolus",
+    "name": "Unity Documentation XR Interaction Toolkit",
+    "desc": "Unity manual for the XR Interaction Toolkit",
+    "link":"https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/index.html"
+  },
+  {
+    "group":"Oculus",
+    "name": "Oculus Developer Center",
+    "desc": "Oculus Developer Site",
+    "link":"https://developer.oculus.com/"
+  },
+  {
+    "group":"Oculus",
+    "name": "Oculus Developer Center Documentation-Unity",
+    "desc": "Documentation for Unity's Oculus Integration Toolkit",
+    "link":"https://developer.oculus.com/documentation/unity/unity-utilities-overview/"
+  },
+  {
+    "group":"C#",
+    "name": "",
+    "desc": "",
+    "link":""
+  },
+  {
+    "group":"NPM",
+    "name": "",
+    "desc": "",
+    "link":""
+  },
+  {
+    "group":"Javascript",
+    "name": "",
+    "desc": "",
+    "link":""
+  },
+  {
+    "group":"Git/GitHub",
+    "name": "",
+    "desc": "",
+    "link":""
+  },
+  {
+    "group":"Angular/Typescript",
+    "name": "",
+    "desc": "",
+    "link":""
+  }
+  
+      
 ];

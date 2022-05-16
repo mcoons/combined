@@ -2,6 +2,7 @@
   <a class="navbar-brand" routerLink="home">
     <img id="logo" alt="MichelCoons.Tech Logo"
       src="/assets/images/logo.png">
+      <div class="logoTransition">&nbsp;</div>
     michaelcoons.tech
   </a>
 
@@ -15,7 +16,7 @@
         <a class="nav-link white" routerLink="home" (click)="toggleNavbar()">Home</a>
       </li>
 
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle white" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           2D Stuff
@@ -35,7 +36,7 @@
           <a *ngFor="let item of appData3D; let i = index" class="dropdown-item" routerLink={{item.link}}
             [queryParams]="{frame: true}" (click)="toggleNavbar()">{{item.name}}</a>
         </div>
-      </li>
+      </li> -->
 
       <li class="nav-item">
         <a class="nav-link white" routerLink="about" (click)="toggleNavbar()">About</a>

@@ -1,22 +1,26 @@
 <div id="homeContainer">
     <br>
-    <img id="me" src="/assets/images/me.jpg" alt="Authors image">
-    <h2>Greetings and Salutations!</h2>
-    <p>Welcome to my site where I showcase some of my personal projects including this website written using Angular.</p>
-    <p>Projects can be accessed through the menu system or through the summaries below. Not all projects are mobile friendly.</p>
-    <p>Some project servers may take a few seconds to spool up.</p>
-    <p>Click on a card to load up the application.</p>
-    <hr class="solid">
-    <h2 id="stuff2d" >2D Projects</h2>
-    <hr class="solid">
-    <br>
-    <div fxLayout="row wrap" fxLayoutGap="16px grid">
-        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
-            *ngFor="let item of appData2D; let i = index">
-            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
-        </div>
-    </div>
-    <br>
+    <div id="intro">
+        
+        <img id="me" src="/assets/images/me.jpg" alt="Authors image">
+        <h2>Greetings and Salutations!</h2>
+        <p>Welcome to my site where I showcase some of my personal projects including this website written using Angular.</p>
+        <p>Projects can be accessed through the menu system or through the summaries below. Not all projects are mobile friendly.</p>
+        <p>Some project servers may take a few seconds to spool up.</p>
+        <!-- <p>Click on a card to load up the application.</p> -->
+        <p>I'm also training on Unity 3D and AR/VR and have obtained the following badges and certifications.</p>
+        <a href="https://www.credly.com/badges/70bdab77-2b02-47fc-a9b8-ca04c2f6f3f9/public_url">
+            <img id="unity-ep" src="/assets/images/unity-essentials-pathway.png" title="Unity Essentials Pathway" alt="Unity Essentials Badge">
+        </a>
+        <a href="https://www.credly.com/badges/9cb30e9c-5167-4821-8d72-4fc22a1945b6/public_url">
+            <img id="unity-cc" src="/assets/images/unity-creative-core.png" title="Unity Creative Core Pathway" alt="Unity Creative Core Badge">
+        </a>
+        <a href="https://www.credly.com/badges/8b7535bb-7b4b-4717-bcd3-2cf3c40aade1/public_url">
+            <img id="unity-jp" src="/assets/images/unity-junior-programmer.png" title="Unity Junior Programmer Pathway" alt="Unity Junior Programmer Badge">
+        </a>
+
+    </div> 
+
     <hr class="solid">
     <h2 id="stuff3d" >3D Projects</h2>
     <hr class="solid">
@@ -28,6 +32,18 @@
         </div>
     </div>
 
+    <br>
 
+    <hr class="solid">
+    <h2 id="stuff2d" >2D Projects</h2>
+    <hr class="solid">
+    <br>
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxLayoutAlign="stretch stretch"
+            *ngFor="let item of appData2D; let i = index">
+            <app-appcard [carditem]="item" fxLayoutAlign="space-evenly stretch"></app-appcard>
+        </div>
+    </div>
 
+    
 </div>

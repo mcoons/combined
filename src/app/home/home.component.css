@@ -1,6 +1,12 @@
  #homeContainer {
-    margin-left: 16px;
+    padding-left: 16px !important;
 }
+
+/* #intro {
+ margin-left: 16px !important;
+} */
+
+
 
 #me {
   border: 1px solid #ddd;
@@ -38,7 +44,7 @@ hr.solid {
   text-align: center;
   background-color: #226FCE;
   color: white;
-  margin: 0;
+  margin: 5px;
   background-image: linear-gradient(to right, #0D47A0  , #3999FE);
 
 }
