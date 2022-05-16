@@ -182,7 +182,7 @@ export const appData3D = [
     "link": "/frame/mengerplanes",
     "github": "https://github.com/mcoons/mengerplanes",
     "published": "https://mcoons.github.io/mengerplanes"
-  },
+  }
   // {
   //   "name": "RGB Cube",
   //   "img": "/assets/images/rgbcube.png",
