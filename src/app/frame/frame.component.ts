@@ -52,7 +52,9 @@ export class FrameComponent implements OnInit, AfterViewInit {
     '3dcharts':'https://mcoons.github.io/3dcharts/',
     'babylonatoms':'https://mcoons.github.io/babylon_atoms/',
     'cssatoms':'https://mcoons.github.io/css_atoms/',
-    'life':'https://mcoons.github.io/conways-life/'
+    'vectorball':'https://mcoons.github.io/VectorBallBuild/',
+    'life':'https://mcoons.github.io/conways-life/',
+    'fish':'https://mcoons.github.io/fishDist/'
   }
 
   constructor(private _Activatedroute: ActivatedRoute) {

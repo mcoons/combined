@@ -76,9 +76,17 @@ export const appData2D = [
 
 export const appData3D = [
   {
+    "name": "Vector Ball",
+    "img": "/assets/images/VectorBall.png",
+    "desc": "Physics based Roll-a-Ball game alpha. Created in <b>Unity</b>.  Event driven.  Using a stack menu system and a queue message system.",
+    "tech": "Unity 3D, C#",
+    "link": "/frame/vectorball",
+    "github": "",
+    "published": ""
+  },   {
     "name": "20th Century Studios Logo",
     "img": "/assets/images/20thCenturyStudios.png",
-    "desc": "Recreation of the logo for 20th Century Studios.  Created with <b>Unity 3D</b> during lighting and camera exploration.",
+    "desc": "Paying homage to the logo for 20th Century Studios.  Created with <b>Unity</b>.  Play it full screen with audio.",
     "tech": "Unity 3D, C#",
     "link": "/assets/videos/20thCenturyStudios.mp4",
     "github": "",
@@ -87,7 +95,7 @@ export const appData3D = [
   {
     "name": "VR Music Platform",
     "img": "/assets/images/VR_Music_Platform.png",
-    "desc": "VR Music platform recorded from an <b>Oculus Quest 2</b>.  Created with <b>Unity 3D</b>.  VR implementation of a Music visualizer.",
+    "desc": "VR Music platform recorded from an <b>Oculus Quest 2</b>.  Created with <b>Unity</b>.  VR implementation of a Music visualizer.",
     "tech": "Unity 3D, C#, XR integration Toolkit",
     "link": "/assets/videos/VR_Music_Platform.mp4",
     "github": "",
@@ -96,16 +104,25 @@ export const appData3D = [
   {
     "name": "Tower Game Prototype",
     "img": "/assets/images/towerunity.png",
-    "desc": "Using <b>Unity 3D</b> to prototype a 3D Tower logic game for eventual publishing and distribution on multiple platforms.",
+    "desc": "Using <b>Unity</b> to prototype a 3D Tower logic game.  It uses event driven recursion for the neighbor selection.",
     "tech": "Unity 3D, C#",
     "link": "/frame/tower",
+    "github": "",
+    "published": ""
+  }, 
+  {
+    "name": "Schooling Fish",
+    "img": "/assets/images/fish.png",
+    "desc": "Schooling fish.  It uses Flocking AI to simulate group behavior. Created in <b>Unity</b> with C#.",
+    "tech": "Unity 3D, C#",
+    "link": "/frame/fish",
     "github": "",
     "published": ""
   },
   {
     "name": "Conway's Game of Life Simulation",
     "img": "/assets/images/life.png",
-    "desc": "<b>Unity 3D</b> implementation of Conway's Game of Life Cellular Automation using C#.  It begins with a random initial boards.",
+    "desc": "<b>Unity</b> implementation of the logic for Conway's Game of Life Cellular Automation using C#.  It begins the simulations with random boards.",
     "tech": "Unity 3D, C#",
     "link": "/frame/life",
     "github": "",
@@ -114,7 +131,7 @@ export const appData3D = [
   {
     "name": "3D Music Visualizer",
     "img": "/assets/images/visualizer.png",
-    "desc": "An MP3 player with multiple interactive 3D visuals. (Click/Hold to Move and Scroll to Zoom)  Play local MP3s.  Frequency analysis and graphing.  Customize visuals and save them to your favorites.",
+    "desc": "An MP3 player with multiple interactive 3D visuals. (Click/Hold to Move and Scroll to Zoom)  Play local MP3s.  Frequency analysis and graphing.  Customize visuals and save them to a favorites list.",
     "tech": "Angular, Typescript and Babylon.JS",
     "link": "/frame/mp3player",
     "github": "",
