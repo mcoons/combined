@@ -9,7 +9,7 @@ My previous project site was looking outdated and was hard to maintain.  I wante
 
 ## General Implementation Description
 
-* Everything is driven from the arrays of app data objects in [appData.ts](https://github.com/mcoons/combined/blob/main/src/app/appData.ts) which the other components import.  This includes the cards displayed on the home page as well as the Navigation menus.
+* Everything is driven from the arrays of app data objects in [appData.ts](https://github.com/mcoons/combined/blob/main/src/app/appData.ts) which the other components import.
 
 * Different projects are displayed through the [Frame component](https://github.com/mcoons/combined/blob/main/src/app/frame/frame.component.ts) using an iFrame.  The destination is passed by the route and the ActivatedRoute parameter which is used for a url Dictionary lookup in the Frame component.
 
@@ -27,7 +27,7 @@ My previous project site was looking outdated and was hard to maintain.  I wante
 
 * Some project servers take a little time to power up since they are on free plans.
 
-* No integration testing.
+* No testing.
 
 ## Future Additions/Fixes when I get time
 
