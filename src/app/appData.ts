@@ -9,33 +9,33 @@ export const appData2D = [
     "github": "https://github.com/mcoons/pomodoro",
     "published": "http://pomodoro.michaelcoons.tech"
   },
-  {
-    "name": "New York Times News",
-    "img": "/assets/images/reactnews.png",
-    "desc": "This simple basic React news app pulls from a New York Times API to display the most popular news.",
-    "tech": "HTML, CSS, Javascript, React, JSX",
-    "link": "/frame/reactnews",
-    "github": "",
-    "published": ""
-  },
-  {
-    "name": "g90 Cohort Directory",
-    "img": "/assets/images/g90.png",
-    "desc": "This is a directory of our Galvanize cohort so we can keep in touch. It is a full stack server side CRUD app written using Node, Express and EJS. It uses Knex with a PostgreSQL database.",
-    "tech": "Node, JavaScript, Express, EJS, Knex and PostgreSQL",
-    "link": "/frame/g90",
-    "github": "https://github.com/mcoons/g90directory",
-    "published": "http://g90.michaelcoons.tech"
-  },
-  {
-    "name": "Spartans Fan Page",
-    "img": "/assets/images/spartans.png",
-    "desc": "This is a server side rendered app written for the Spartan parents so they can download pictures that I take of the players. It has very low maintenance. I just add a new image directory and it dynamically updates the menu and pages by reading the file system.",
-    "tech": "Node, Express, JavaScript and EJS",
-    "link": "/frame/spartans",
-    "github": "https://github.com/mcoons/spartans",
-    "published": "http://spartans.michaelcoons.tech"
-  },
+  // {
+  //   "name": "New York Times News",
+  //   "img": "/assets/images/reactnews.png",
+  //   "desc": "This simple basic React news app pulls from a New York Times API to display the most popular news.",
+  //   "tech": "HTML, CSS, Javascript, React, JSX",
+  //   "link": "/frame/reactnews",
+  //   "github": "",
+  //   "published": ""
+  // },
+  // {
+  //   "name": "g90 Cohort Directory",
+  //   "img": "/assets/images/g90.png",
+  //   "desc": "This is a directory of our Galvanize cohort so we can keep in touch. It is a full stack server side CRUD app written using Node, Express and EJS. It uses Knex with a PostgreSQL database.",
+  //   "tech": "Node, JavaScript, Express, EJS, Knex and PostgreSQL",
+  //   "link": "/frame/g90",
+  //   "github": "https://github.com/mcoons/g90directory",
+  //   "published": "http://g90.michaelcoons.tech"
+  // },
+  // {
+  //   "name": "Spartans Fan Page",
+  //   "img": "/assets/images/spartans.png",
+  //   "desc": "This is a server side rendered app written for the Spartan parents so they can download pictures that I take of the players. It has very low maintenance. I just add a new image directory and it dynamically updates the menu and pages by reading the file system.",
+  //   "tech": "Node, Express, JavaScript and EJS",
+  //   "link": "/frame/spartans",
+  //   "github": "https://github.com/mcoons/spartans",
+  //   "published": "http://spartans.michaelcoons.tech"
+  // },
   {
     "name": "3D Table of Elements",
     "img": "/assets/images/cssatoms.png",
